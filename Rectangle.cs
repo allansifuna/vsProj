@@ -1,3 +1,5 @@
+using System;
+namespace RectangleProject {
 public class Rectangle
 {
     private int width,length;
@@ -29,4 +31,5 @@ public class Rectangle
     public int GetArea(){
         return (this.width*this.length);
     }
+}
 }
